@@ -6,98 +6,76 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-variation-settings: "wdth"  100;
+
 }
 
-/* Shared styles */
-.shared-style {
+/* shared styles*/
+.text-primary{
   color: #FD6E0A;
 }
-
-.dark-2 {
+.dark-2{
   color: #474747;
 }
-
-/* Navigation styles */
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-
-nav ul {
-  display: flex;
-  gap: 30px;
-}
-
-.nav-title {
-  font-weight: 800;
-  font-size: 45px;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #474747;
-}
-
-.btn-primary {
+.btn-primary{
   background-color: #FD6E0A;
+  font-size: 20px;
   font-weight: bold;
   color: white;
-  padding: 10px 25px;
+  padding: 18px 35px;
   border-radius: 5px;
-  border: none;
-  text-decoration: none;
-  display: inline-block;
 }
-
-/* Banner */
-.banner {
+/* header */
+.header{
   background-image: url(images/developer.png), url(images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 40px 35px 0 200px;
-}
 
-.banner-content-wrapper {
+}
+ /* nav styles */
+ nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0px 200px;
+ }
+.nav-title{
+  font: 800;
+  font-size: 45px;
+}
+nav ul{
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
-
-.banner-content {
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+/* banner styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-content{
   max-width: 580px;
 }
-
-.banner-greetings {
+.banner-greetings{
   font-size: 45px;
   font-weight: 600;
 }
-
-.banner-title {
-  font-size: 85px;
-  font-weight: bold;
+.banner-title{
+ font-weight: bold;
+ font-size: 85px;
 }
 
-.banner-description {
-  font-size: 18px;
-}
-
-.banner-buttons {
-  display: flex;
-  gap: 15px;
-}
-
-.banner-profile-image {
+.banner-profile-pic{
   width: 580px;
-  height: auto;
-  border-radius: 10px;
+}
+.banner-description{
+
 }
